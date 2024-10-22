@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall Of Admins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            min-height: 100vh;
+            overflow-y: auto; /* Allows scrolling on the entire page */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers all content horizontally */
+            justify-content: flex-start;
+        }
+
+        .banner-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: center; /* Centers the boxes */
+            gap: 20px;
+            flex-wrap: wrap; /* Allows wrapping for smaller screens */
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px 0;
+        }
+
+        .box {
+            border: solid 1px rgb(40, 40, 40);
+            background-color: rgb(14, 14, 14);
+            width: 30%;
+            min-width: 250px;
+            border-radius: 2px;
+            padding: 15px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden; /* Prevents content overflow */
+        }
+
+        .box img {
+            max-width: 100%;
+            max-height: 50%;
+        }
+
+        .box p {
+            margin-top: 10px;
+            /* No height restriction, fills available space */
+        }
+
+        .scroll-notice {
+            font-size: 12px;
+            color: gray;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .rainbow {
+            text-shadow: 2px 2px 4px #000000;
+            -webkit-animation: rainbow 5s infinite;
+            animation: rainbow 5s infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            17% { color: orange; }
+            33% { color: yellow; }
+            50% { color: green; }
+            67% { color: blue; }
+            84% { color: purple; }
+            100% { color: red; }
+        }
+
+        .name-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .title-text {
+            text-align: center;
+            font-size: 35px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <pre>
+ __       __        _______         _______  
+/  |  _  /  |      /       \       /       \ 
+$$ | / \ $$ |      $$$$$$$  |      $$$$$$$  |
+$$ |/$  \$$ |      $$ |__$$ |      $$ |  $$ |
+$$ /$$$  $$ |      $$    $$/       $$ |  $$ |
+$$ $$/$$ $$ |      $$$$$$$/        $$ |  $$ |
+$$$$/  $$$$ |      $$ |            $$ |__$$ |
+$$$/    $$$ |      $$ |            $$    $$/ 
+$$/      $$/       $$/             $$$$$$$/  
+        </pre>
+        <strong class="title-text rainbow">Hall Of Admins</strong>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/users/hof/CLiTPEELER.webp" alt="CLiTPEELER">
+            <div class="name-text rainbow">"CLiTPEELER"</div>
+            <p>WPD Owner.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/FishyMan420.webp" alt="FishyMan420">
+            <div class="name-text rainbow">"FishyMan420"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Aevann.webp" alt="Aevann">
+            <div class="name-text rainbow">"Aevann"</div>
+            <p>WPD Developer.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/hercule-poirot.webp" alt="hercule-poirot">
+            <div class="name-text rainbow">"hercule-poirot"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/G-tix.webp" alt="G-tix">
+            <div class="name-text rainbow">"G-tix"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Sunshine.webp" alt="Sunshine">
+            <div class="name-text rainbow">"Sunshine"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Princess_Crocodile.webp" alt="Princess_Crocodile">
+            <div class="name-text rainbow">"Princess_Crocodile"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Dwhite_Dynamite.webp" alt="Dwhite_Dynamite">
+            <div class="name-text rainbow">"Dwhite_Dynamite"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/The10thMan.webp" alt="The10thMan">
+            <div class="name-text rainbow">"The10thMan"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Repost_Killing_Bot.webp" alt="Repost_Killing_Bot">
+            <div class="name-text rainbow">"Repost_Killing_Bot"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/CursedDANKmemes.webp" alt="CursedDANKmemes">
+            <div class="name-text rainbow">"CursedDANKmemes"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/C0ng0.webp" alt="C0ng0">
+            <div class="name-text rainbow">"C0ng0"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/weltschmerz.webp" alt="weltschmerz">
+            <div class="name-text rainbow">"weltschmerz"</div>
+            <p>WPD Admin.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Vario.webp" alt="Vario">
+            <div class="name-text rainbow">"Vario"</div>
+            <p>WPD Admin.</p>
+        </div>
+    </div>
+</body>
+</html>

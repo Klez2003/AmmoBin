@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall Of Fame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            min-height: 100vh;
+            overflow-y: auto; /* Allows scrolling on the entire page */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers all content horizontally */
+            justify-content: flex-start;
+        }
+
+        .banner-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: center; /* Centers the boxes */
+            gap: 20px;
+            flex-wrap: wrap; /* Allows wrapping for smaller screens */
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px 0;
+        }
+
+        .box {
+            border: solid 1px rgb(40, 40, 40);
+            background-color: rgb(14, 14, 14);
+            width: 30%;
+            min-width: 250px;
+            border-radius: 2px;
+            padding: 15px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden; /* Prevents content overflow */
+        }
+
+        .box img {
+            max-width: 100%;
+            max-height: 50%;
+        }
+
+        .box p {
+            margin-top: 10px;
+            /* No height restriction, fills available space */
+        }
+
+        .scroll-notice {
+            font-size: 12px;
+            color: gray;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .rainbow {
+            text-shadow: 2px 2px 4px #000000;
+            -webkit-animation: rainbow 5s infinite;
+            animation: rainbow 5s infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            17% { color: orange; }
+            33% { color: yellow; }
+            50% { color: green; }
+            67% { color: blue; }
+            84% { color: purple; }
+            100% { color: red; }
+        }
+
+        .name-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .title-text {
+            text-align: center;
+            font-size: 35px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <pre>
+ __       __        _______         _______  
+/  |  _  /  |      /       \       /       \ 
+$$ | / \ $$ |      $$$$$$$  |      $$$$$$$  |
+$$ |/$  \$$ |      $$ |__$$ |      $$ |  $$ |
+$$ /$$$  $$ |      $$    $$/       $$ |  $$ |
+$$ $$/$$ $$ |      $$$$$$$/        $$ |  $$ |
+$$$$/  $$$$ |      $$ |            $$ |__$$ |
+$$$/    $$$ |      $$ |            $$    $$/ 
+$$/      $$/       $$/             $$$$$$$/  
+        </pre>
+        <strong class="title-text rainbow">Hall Of Fame</strong>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+<<<<<<< HEAD
+=======
+            <img src="assets/users/hof/GoLiveAndKYS.webp" alt="GoLiveAndKYS">
+            <div class="name-text rainbow">"GoLiveAndKYS"</div>
+            <p>Best Satanic CSS On WPD</p>
+        </div>
+
+    <div class="box-container">
+        <div class="box">
+>>>>>>> Initial commit
+            <img src="assets/users/hof/Plex.webp" alt="Plex">
+            <div class="name-text rainbow">"Plex"</div>
+            <p>WPD's Very Own Plex</p>
+        </div>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/users/hof/cool_cat_.webp" alt="cool_cat_">
+            <div class="name-text rainbow">"cool_cat_"</div>
+            <p>WPD's Very Own Cool Cat.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Cognacc.webp" alt="Cognacc">
+            <div class="name-text rainbow">"Cognacc"</div>
+            <p>WPD's Very Own Drink.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/MisterBear.webp" alt="MisterBear">
+            <div class="name-text rainbow">"MisterBear"</div>
+            <p>WPD's Very Own Bear.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/users/hof/Vaporeon.webp" alt="Vaporeon">
+            <div class="name-text rainbow">"Vaporeon"</div>
+            <p>WPD's Very Own Vaporeon.</p>
+        </div>
+
+    </div>
+</body>
+</html>
